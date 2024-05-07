@@ -21,7 +21,7 @@ GOOGLE_APPLICATION_CREDENTIALS=~/.gcp/your_credentials.json npx print-iap-oidc-t
 ## Advanced
 
 ```bash
-curl https://some.iap.url -H "Proxy-Authorization: Bearer $(npx print-iap-oidc-token --target_audience IAP_CLIENT_ID.apps.googleusercontent.com --json_credentials_path ~/.gcp/your_credentials.json)"
+curl https://some.iap.url -H "Proxy-Authorization: Bearer $(npx -y print-iap-oidc-token --target_audience IAP_CLIENT_ID.apps.googleusercontent.com --json_credentials_path ~/.gcp/your_credentials.json)"
 ```
 
 ## License
