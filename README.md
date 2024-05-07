@@ -1,5 +1,10 @@
 # README
 
+Obtaining an OIDC token for the service account against the GCP Cloud IAP.
+
+* https://cloud.google.com/iap/docs/authentication-howto?hl=ja#obtaining_an_oidc_token_for_the_default_service_account
+* https://github.com/googleapis/google-auth-library-nodejs/blob/main/samples/idTokenFromServiceAccount.js
+
 ## Usage
 
 ```bash
