@@ -1,6 +1,6 @@
 {
   "name": "print-iap-oidc-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Obtaining an OIDC token for the service account against the GCP Cloud IAP.",
   "bin": "./index.js",
   "scripts": {
