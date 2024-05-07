@@ -1,0 +1,37 @@
+{
+  "name": "print-iap-oidc-token",
+  "version": "0.1.0",
+  "description": "Obtaining an OIDC token for the service account against the GCP Cloud IAP.",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masahirompp/print-iap-oidc-token.git"
+  },
+  "keywords": [
+    "gcp",
+    "iap",
+    "oidc"
+  ],
+  "author": "Masahiro Onohara <masahirompp@gmail.com> (https://github.com/masahirompp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masahirompp/print-iap-oidc-token/issues"
+  },
+  "homepage": "https://github.com/masahirompp/print-iap-oidc-token#readme",
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
+  "devDependencies": {
+    "release-it": "^17.2.1"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.9.0",
+    "yargs": "^17.7.2"
+  }
+}
