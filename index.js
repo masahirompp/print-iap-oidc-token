@@ -30,7 +30,7 @@ async function getIdTokenByServiceAccount(targetAudience, jsonCredentialsPath) {
     ? JSON.parse(fs.readFileSync(jsonCredentialsPath, "utf8"))
     : undefined;
   const auth = new GoogleAuth({ credentials });
-  const client = await auth.getIdTokenClient(process.env.TARGET_AUDIENCE);
+  const client = await auth.getIdTokenClient(targetAudience);
   return client.idTokenProvider.fetchIdToken(targetAudience);
 }
 
